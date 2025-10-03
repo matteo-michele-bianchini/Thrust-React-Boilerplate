@@ -1,9 +1,10 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
+import { appTitle } from "~/lib/constants/uiText";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
+    { title: appTitle },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
