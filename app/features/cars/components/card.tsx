@@ -8,6 +8,8 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 
+import { Ellipsis } from "lucide-react"
+
 import type Car from "@/types/car"
 
 export default function CarCard(
@@ -17,7 +19,7 @@ export default function CarCard(
         <CardHeader>
             <CardTitle>{manufacturer}</CardTitle>
             <CardDescription>{model}</CardDescription>
-            {/* <CardAction>Card Action</CardAction> */}
+            <CardAction><Ellipsis /></CardAction>
         </CardHeader>
         <CardContent>
             <img

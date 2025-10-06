@@ -18,7 +18,7 @@ export default {
                     model: '296 GTB',
                     description: 'La Ferrari 296 GTB, evoluzione del concetto di berlinetta sportiva a 2 posti a motore centrale-posteriore Ferrari, rappresenta una rivoluzione per la Casa di Maranello in quanto introduce la nuova motorizzazione V6 a 120° accoppiata a un motore elettrico plug-in (PHEV) in grado di erogare fino a 830 cv. La vettura ridefinisce così l’idea di divertimento al volante per garantire emozioni pure non solo quando si è alla ricerca delle massime prestazioni, ma anche nella guida di tutti i giorni.',
                     price: "€ 250.000",
-                    img: 'https://cdn.ferrari.com/cms/network/media/img/resize/60d0b58c9b071e08fb36d6b5-ferrari-296-gtb-intro-desk-2?width=1920&height=1600'
+                    img: 'https://cdn.ferrari.com/cms/network/media/img/resize/60d0c76ec72d35651787ea05-ferrari-296-gtb-assetto-fiorano-cover-desk?width=1920&height=1080'
                 }
             ] satisfies Car[]
         },
