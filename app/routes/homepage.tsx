@@ -1,5 +1,5 @@
 import type { Route } from "./+types/homepage";
-import { appTitle } from "@/utils/constants/uiText";
+import { appTitle, projectName } from "@/utils/constants/uiText";
 import { Card, CardContent } from "@/components/ui/card"
 
 export function meta({ }: Route.MetaArgs) {
@@ -14,7 +14,7 @@ export default () => {
     <Card className="shadow-lg border rounded-2xl">
       <CardContent className="p-10">
         <h1 className="text-5xl font-bold text-center tracking-tight">
-          NewtonThrust
+          {`${projectName}`}
         </h1>
       </CardContent>
     </Card>
