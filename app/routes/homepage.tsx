@@ -1,6 +1,6 @@
 import type { Route } from "./+types/homepage";
 import { Welcome } from "../welcome/welcome";
-import { appTitle } from "~/lib/constants/uiText";
+import { appTitle } from "@/lib/constants/uiText";
 
 export function meta({ }: Route.MetaArgs) {
   return [
