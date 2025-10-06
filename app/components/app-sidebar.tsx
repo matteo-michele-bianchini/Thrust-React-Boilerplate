@@ -44,14 +44,14 @@ const data = {
   ],
   navMain: [
     {
-      title: "Search",
-      url: "#",
-      icon: Search,
-    },
-    {
       title: "Home",
       url: "#",
       icon: Home,
+    },
+    {
+      title: "Search",
+      url: "#",
+      icon: Search,
     },
     {
       title: "Cars",
