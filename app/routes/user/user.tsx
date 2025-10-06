@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/sidebar"
 
 import CarsList from "@/features/cars/list"
+import NewsList from "@/features/news/list"
 
 export default function Page() {
   return (
@@ -43,6 +44,7 @@ export default function Page() {
         </header>
         <div className="flex flex-1 flex-col gap-4 px-4 py-10">
           <CarsList />
+          <NewsList />
         </div>
       </SidebarInset>
     </SidebarProvider>
