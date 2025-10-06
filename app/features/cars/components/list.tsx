@@ -4,10 +4,9 @@ import CarCard from './card'
 const items = cars[200].full.items
 
 export default function CarsList() {
-    return (
-        <>{items.map(({ ...props }) => {
-            return <CarCard key={props.id}
-                {...props} />
-        })}</>
+    return items.map(
+        ({ ...props }) => {
+            return <CarCard key={props.id} {...props} />
+        }
     )
 }
