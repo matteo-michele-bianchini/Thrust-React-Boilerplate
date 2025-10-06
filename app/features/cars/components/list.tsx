@@ -1,10 +1,14 @@
 import cars from '@/lib/mock-server/cars/responses'
+import CarCard from './card'
 
-
-console.log(cars)
+const items = cars[200].full.items
+console.log(items)
 
 export default function CarsList() {
     return (
-        <>cars list</>
+        <>{items.map(({ ...props }) => {
+            return <CarCard
+                {...props} />
+        })}</>
     )
 }
