@@ -2,6 +2,7 @@ export default interface Car {
     id: string
     manufacturer: string
     model: string
-    price: number
+    description: string
+    price: string
     img: string
 }

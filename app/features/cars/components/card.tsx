@@ -11,20 +11,19 @@ import {
 import type Car from "@/types/car"
 
 export default function CarCard(
-    { id, manufacturer }: Car
+    { description, manufacturer, model, price }: Car
 ) {
-    console.log("Rendering:", manufacturer);
     return <Card>
         <CardHeader>
-            <CardTitle>Card Title {manufacturer}</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-            <CardAction>Card Action</CardAction>
+            <CardTitle>{manufacturer}</CardTitle>
+            <CardDescription>{model}</CardDescription>
+            {/* <CardAction>Card Action</CardAction> */}
         </CardHeader>
         <CardContent>
-            <p>Card Content</p>
+            <p style={{ whiteSpace: "pre-line" }}>{description}</p>
         </CardContent>
         <CardFooter>
-            <p>Card Footer</p>
+            <p>{price}</p>
         </CardFooter>
     </Card>
 }
