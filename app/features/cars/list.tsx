@@ -1,4 +1,4 @@
-import cars from '@/lib/mock-server/cars/responses'
+import cars from '@/utils/mock-server/cars/responses'
 import CarCard from './card'
 
 const items = cars[200].full.items
