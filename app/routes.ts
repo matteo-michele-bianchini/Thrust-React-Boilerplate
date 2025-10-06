@@ -9,7 +9,9 @@ export default [
     /* GUEST AREA */
 
     /* USER AREA */
-    route("user", "routes/user/user.tsx")
+    route("user", "routes/user/user.tsx"),
     /* USER AREA */
 
+    /* catch-all*/
+    route("*", "routes/notFound.tsx")
 ] satisfies RouteConfig;
