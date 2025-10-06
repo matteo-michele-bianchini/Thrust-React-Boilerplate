@@ -7,10 +7,10 @@ export default {
                 {
                     id: '1',
                     manufacturer: 'Pagani',
-                    model: 'Utopia Roadster',
-                    description: "L’Utopia Roadster rappresenta l’apice di una continua ricerca che unisce la più sofisticata tecnologia a un design senza tempo.\n\nLeggera, dinamica e performante, è progettata in continuità con la versione Coupé, pur presentando elementi distintivi.",
+                    model: 'Utopia',
+                    description: "La Pagani Utopia rappresenta l’apice di una continua ricerca che unisce la più sofisticata tecnologia a un design senza tempo.\n\nLeggera, dinamica e performante, è progettata in continuità con la versione Coupé, pur presentando elementi distintivi.",
                     price: "€ 500.000",
-                    img: 'https://www.pagani.com/app/uploads/2024/07/Pagani-Utopia-Roadster-1440-x-810-px-8.jpg'
+                    img: 'https://www.pagani.com/app/uploads/2022/09/1440x81016-1-1980x1114.jpg'
                 },
                 {
                     id: '2',
