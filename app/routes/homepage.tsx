@@ -1,4 +1,4 @@
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/homepage";
 import { Welcome } from "../welcome/welcome";
 import { appTitle } from "~/lib/constants/uiText";
 
