@@ -1,5 +1,5 @@
 import type { Route } from "./+types/homepage";
-import { appTitle } from "@/lib/constants/uiText";
+import { appTitle } from "@/utils/constants/uiText";
 import { Card, CardContent } from "@/components/ui/card"
 
 export function meta({ }: Route.MetaArgs) {
