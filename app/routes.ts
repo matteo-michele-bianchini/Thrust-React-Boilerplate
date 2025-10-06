@@ -1,16 +1,13 @@
 import { type RouteConfig, index, route } from "@react-router/dev/routes";
 
 export default [
-    // HOMEPAGE
     index("routes/homepage.tsx"),
 
-    /* GUEST AREA */
+    // Guest Area
     route("login", "routes/login.tsx"),
-    /* GUEST AREA */
 
-    /* USER AREA */
+    // User Area
     route("user", "routes/user/user.tsx"),
-    /* USER AREA */
 
     /* catch-all*/
     route("*", "routes/notFound.tsx")
