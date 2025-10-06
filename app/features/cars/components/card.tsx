@@ -25,7 +25,7 @@ export default function CarCard(
             <img
                 src={img}
                 alt={`${manufacturer} ${model}`}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover rounded-2xl"
             />
             <br></br>
             <p style={{ whiteSpace: "pre-line" }}>{description}</p>

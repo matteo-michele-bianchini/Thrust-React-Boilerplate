@@ -1,3 +1,3 @@
- cd ~/software/customers/newtonThrust/frontend
- code .
- npm run dev
+cd ~/software/customers/newtonThrust/frontend
+code .
+npm run dev
