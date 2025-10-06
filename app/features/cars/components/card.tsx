@@ -11,15 +11,21 @@ import {
 import type Car from "@/types/car"
 
 export default function CarCard(
-    { description, manufacturer, model, price }: Car
+    { description, manufacturer, model, price, img }: Car
 ) {
-    return <Card>
+    return <Card className="overflow-hidden rounded-2xl shadow-md max-w-xl mx-auto"> {/* to do explain this */}
         <CardHeader>
             <CardTitle>{manufacturer}</CardTitle>
             <CardDescription>{model}</CardDescription>
             {/* <CardAction>Card Action</CardAction> */}
         </CardHeader>
         <CardContent>
+            <img
+                src={img}
+                alt={`${manufacturer} ${model}`}
+                className="w-full h-auto object-cover"
+            />
+            <br></br>
             <p style={{ whiteSpace: "pre-line" }}>{description}</p>
         </CardContent>
         <CardFooter>
