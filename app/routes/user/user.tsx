@@ -13,7 +13,7 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar"
 
-import CarsList from "@/features/cars/components/list"
+import CarsList from "@/features/cars/list"
 
 export default function Page() {
   return (
