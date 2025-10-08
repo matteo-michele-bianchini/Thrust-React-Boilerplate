@@ -11,7 +11,6 @@
 html,
 body {
   @apply bg-white dark:bg-gray-950;
-  min-height: 100vh;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
@@ -129,7 +128,6 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
-
   body {
     @apply bg-background text-foreground;
   }
