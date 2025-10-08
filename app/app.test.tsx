@@ -1,11 +1,10 @@
 import { render, screen } from '@testing-library/react'
+import { Welcome } from '@/welcome/welcome';
 
-const Login = () => <>login</>
-
-test('First dummy test', () => {
+test('First test', () => {
     render(
-        <Login />
+        <Welcome />
     );
-    expect(screen.getByText('login')).toBeInTheDocument();
+    expect(screen.getByText('React Router Docs')).toBeInTheDocument();
 
 });
