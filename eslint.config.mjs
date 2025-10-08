@@ -7,5 +7,5 @@ import tseslint from 'typescript-eslint';
 export default defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommended,
-    globalIgnores(['.react-router', 'build', 'node_modules', 'public']),
+    globalIgnores(['.husky', '.react-router', 'build', 'node_modules', 'public']),
 );
