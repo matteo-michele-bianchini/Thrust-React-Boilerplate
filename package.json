@@ -5,6 +5,7 @@
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
+    "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
     "lint": "npx eslint app",
     "start": "react-router-serve ./build/server/index.js",
     "test": "vitest",
