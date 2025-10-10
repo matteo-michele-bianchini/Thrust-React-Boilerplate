@@ -16,7 +16,8 @@ export default defineConfig(
                     "max": 1
                 }
             ],
-            "semi": ["error", "never"]
+            "semi": ["error", "never"],
+            "no-extra-semi": "error"
         }
 
     }
