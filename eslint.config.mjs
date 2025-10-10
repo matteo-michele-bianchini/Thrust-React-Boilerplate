@@ -17,9 +17,9 @@ export default defineConfig(
                 }
             ],
             "semi": ["error", "never"],
-            "no-extra-semi": "error"
+            "no-extra-semi": "error",
+            "eol-last": ["error", "never"]
         }
 
     }
 )
-
