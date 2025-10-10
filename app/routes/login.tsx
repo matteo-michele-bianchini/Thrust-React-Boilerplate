@@ -1,8 +1,8 @@
-import { GalleryVerticalEnd } from "lucide-react"
+import { GalleryVerticalEnd } from 'lucide-react'
 
-import { LoginForm } from "@/components/login-form"
+import { LoginForm } from '@/components/login-form'
 
-import { projectName } from "@/utils/constants/uiText"
+import { projectName } from '@/utils/constants/uiText'
 
 export default function LoginPage() {
   return (

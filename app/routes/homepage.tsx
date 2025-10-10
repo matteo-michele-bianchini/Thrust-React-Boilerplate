@@ -1,12 +1,12 @@
-import type { Route } from "./+types/homepage"
-import { appTitle, projectName } from "@/utils/constants/uiText"
-import { Card, CardContent } from "@/components/ui/card"
+import type { Route } from './+types/homepage'
+import { appTitle, projectName } from '@/utils/constants/uiText'
+import { Card, CardContent } from '@/components/ui/card'
 
 // eslint-disable-next-line no-empty-pattern
 export function meta({ }: Route.MetaArgs) {
   return [
     { title: appTitle },
-    { name: "description", content: "Welcome to React Router!" },
+    { name: 'description', content: 'Welcome to React Router!' },
   ]
 }
 

@@ -6,11 +6,11 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from '@/components/ui/card'
 
-import { Ellipsis } from "lucide-react"
+import { Ellipsis } from 'lucide-react'
 
-import type News from "@/types/news"
+import type News from '@/types/news'
 
 export default function NewsCard(
     { title, text, img }: News
@@ -28,7 +28,7 @@ export default function NewsCard(
                 className="w-full h-auto object-cover rounded-2xl"
             />
             <br></br>
-            <p style={{ whiteSpace: "pre-line" }}>{text}</p>
+            <p style={{ whiteSpace: 'pre-line' }}>{text}</p>
         </CardContent>
         <CardFooter>
             {/* <p>{price}</p> */}
