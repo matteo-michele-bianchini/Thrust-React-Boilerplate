@@ -10,16 +10,17 @@ export default defineConfig(
     globalIgnores(['.husky', '.react-router', 'build', 'node_modules', 'public']),
     {
         rules: {
-            "no-multiple-empty-lines": [
-                "error",
+            'no-multiple-empty-lines': [
+                'error',
                 {
                     max: 1
                 }
             ],
-            semi: ["error", "never"],
-            "no-extra-semi": "error",
-            "eol-last": ["error", "never"],
-            "quote-props": ["error", "as-needed"]
+            semi: ['error', 'never'],
+            'no-extra-semi': 'error',
+            'eol-last': ['error', 'never'],
+            'quote-props': ['error', 'as-needed'],
+            quotes: ['error', 'single', { avoidEscape: true }]
         }
 
     }
