@@ -16,10 +16,10 @@ export default defineConfig(
                     max: 1
                 }
             ],
-            "semi": ["error", "never"],
+            semi: ["error", "never"],
             "no-extra-semi": "error",
             "eol-last": ["error", "never"],
-            "quote-props": ["error", "consistent-as-needed"]
+            "quote-props": ["error", "as-needed"]
         }
 
     }
