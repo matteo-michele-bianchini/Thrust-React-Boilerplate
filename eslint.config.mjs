@@ -13,12 +13,13 @@ export default defineConfig(
             "no-multiple-empty-lines": [
                 "error",
                 {
-                    "max": 1
+                    max: 1
                 }
             ],
             "semi": ["error", "never"],
             "no-extra-semi": "error",
-            "eol-last": ["error", "never"]
+            "eol-last": ["error", "never"],
+            "quote-props": ["error", "consistent-as-needed"]
         }
 
     }
