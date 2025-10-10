@@ -6,7 +6,7 @@
     "build": "react-router build",
     "dev": "react-router dev --open",
     "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
-    "lint": "npx eslint app",
+    "lint": "npx eslint",
     "pre:commit": "npm-run-all lint typecheck test:once",
     "start": "react-router-serve ./build/server/index.js",
     "test": "vitest",
