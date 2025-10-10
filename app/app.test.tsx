@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react'
-import { Welcome } from '@/welcome/welcome';
+import { Welcome } from '@/welcome/welcome'
 
 test('First test', () => {
     render(
         <Welcome />
-    );
-    expect(screen.getByText('React Router Docs')).toBeInTheDocument();
+    )
+    expect(screen.getByText('React Router Docs')).toBeInTheDocument()
 
-});
+})
