@@ -12,6 +12,9 @@ import './app.css'
 
 import { ThemeProvider } from '@/components/theme-provider'
 
+import { store } from '@/store/store'
+import { Provider } from 'react-redux'
+
 export const links: Route.LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
   {
@@ -44,7 +47,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <ThemeProvider storageKey="vite-ui-theme"><Outlet /></ThemeProvider>
+  return (
+    <ThemeProvider storageKey="vite-ui-theme">
+      <Provider store={store}>
+        <Outlet />
+      </Provider>
+    </ThemeProvider>
+  )
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
