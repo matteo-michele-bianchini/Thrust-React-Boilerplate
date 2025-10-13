@@ -29,6 +29,7 @@ export default defineConfig(
     {
         files: ['app/components/**'],
         rules: {
+            'comma-dangle': 'off',
             quotes: 'off'
         }
     }
