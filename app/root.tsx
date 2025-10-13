@@ -14,6 +14,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 
 import { store } from '@/store/store'
 import { Provider } from 'react-redux'
+import { useEffect } from 'react'
 
 export const links: Route.LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -47,6 +48,16 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  useEffect(() => {
+    async function enableMocking() {
+      if (process.env.NODE_ENV === 'development' && typeof window !== 'undefined') {
+        const { worker } = await import('./mocks/browser')
+        return worker.start()
+      }
+    }
+    enableMocking()
+  }, [])
+
   return (
     <ThemeProvider storageKey="vite-ui-theme">
       <Provider store={store}>
