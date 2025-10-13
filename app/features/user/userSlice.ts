@@ -19,8 +19,8 @@ export const userSlice = createSlice({
         },
         deleteUser: (state) => {
             state.data = null
-        },
-    },
+        }
+    }
 })
 
 export const { setUser, deleteUser } = userSlice.actions

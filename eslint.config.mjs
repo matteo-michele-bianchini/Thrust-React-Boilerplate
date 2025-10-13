@@ -18,19 +18,18 @@ export default defineConfig(
                     max: 1
                 }
             ],
-            semi: ['error', 'never'],
-            'no-extra-semi': 'error',
+            'comma-dangle': ['error', 'never'],
             'eol-last': ['error', 'never'],
+            'no-extra-semi': 'error',
             'quote-props': ['error', 'as-needed'],
-            quotes: ['error', 'single', { avoidEscape: true }]
-
-        },
-
+            quotes: ['error', 'single', { avoidEscape: true }],
+            semi: ['error', 'never']
+        }
     },
     {
         files: ['app/components/**'],
         rules: {
             quotes: 'off'
         }
-    },
+    }
 )
