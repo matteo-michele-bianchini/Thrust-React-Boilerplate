@@ -24,7 +24,7 @@ export default {
         },
         empty: {
             items_quantity: 0,
-            items: [],
+            items: []
         }
     }
 }

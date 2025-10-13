@@ -4,13 +4,13 @@ import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbList,
-  BreadcrumbPage,
+  BreadcrumbPage
 } from '@/components/ui/breadcrumb'
 import { Separator } from '@/components/ui/separator'
 import {
   SidebarInset,
   SidebarProvider,
-  SidebarTrigger,
+  SidebarTrigger
 } from '@/components/ui/sidebar'
 
 import CarsList from '@/features/cars/list'

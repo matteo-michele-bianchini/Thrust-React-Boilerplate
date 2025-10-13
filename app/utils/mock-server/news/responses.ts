@@ -19,7 +19,7 @@ export default {
             ] satisfies News[]
         },
         empty: {
-            items: [],
+            items: []
         }
     }
 }

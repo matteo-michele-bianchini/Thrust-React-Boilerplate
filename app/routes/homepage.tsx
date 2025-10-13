@@ -6,7 +6,7 @@ import { Card, CardContent } from '@/components/ui/card'
 export function meta({ }: Route.MetaArgs) {
   return [
     { title: appTitle },
-    { name: 'description', content: 'Welcome to React Router!' },
+    { name: 'description', content: 'Welcome to React Router!' }
   ]
 }
 
