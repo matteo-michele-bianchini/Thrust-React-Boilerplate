@@ -5,6 +5,7 @@
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev --open",
+    "cypress": "npx cypress open",
     "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
     "eslint": "npx eslint",
     "eslint:fix": "npx eslint --fix",
@@ -47,6 +48,7 @@
     "@types/node": "^22",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.1",
+    "cypress": "^15.4.0",
     "eslint": "^9.37.0",
     "eslint-plugin-react-hooks": "^7.0.0",
     "husky": "^9.1.7",
