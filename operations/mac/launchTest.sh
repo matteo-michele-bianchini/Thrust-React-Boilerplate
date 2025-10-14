@@ -3,4 +3,4 @@ SCRIPT_PATH="`dirname \"$0\"`"
 
 pushd "$SCRIPT_PATH/../../"
 
-npm run cypress
+npm run test
