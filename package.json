@@ -13,6 +13,7 @@
     "test": "vitest",
     "test:once": "vitest run",
     "test:once:e2e": "playwright test --reporter=line",
+    "test:e2e": "PWTEST_WATCH=1 npx playwright test",
     "typecheck": "react-router typegen && tsc",
     "prepare": "husky"
   },
