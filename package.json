@@ -8,10 +8,11 @@
     "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
     "eslint": "npx eslint",
     "eslint:fix": "npx eslint --fix",
-    "pre:commit": "npm-run-all eslint typecheck test:once",
+    "pre:commit": "npm-run-all eslint typecheck test:once test:once:e2e",
     "start": "react-router-serve ./build/server/index.js",
     "test": "vitest",
     "test:once": "vitest run",
+    "test:once:e2e": "playwright test --reporter=line",
     "typecheck": "react-router typegen && tsc",
     "prepare": "husky"
   },
