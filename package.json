@@ -6,14 +6,15 @@
     "build": "react-router build",
     "dev": "react-router dev --open",
     "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
-    "eslint": "npx eslint",
-    "eslint:fix": "npx eslint --fix",
-    "pre:commit": "npm-run-all eslint typecheck test:once test:once:e2e",
+    "eslint": "eslint",
+    "eslint:fix": "eslint --fix",
+    "pre:commit": "npm-run-all eslint typecheck test:once test:e2e:once",
     "start": "react-router-serve ./build/server/index.js",
     "test": "vitest",
     "test:once": "vitest run",
-    "test:once:e2e": "playwright test --reporter=line",
-    "test:e2e": "PWTEST_WATCH=1 npx playwright test",
+    "test:e2e": "PWTEST_WATCH=1 playwright test",
+    "test:e2e:once": "playwright test --reporter=line",
+    "test:e2e:ui": "playwright test --ui --ui-host=0.0.0.0",
     "typecheck": "react-router typegen && tsc",
     "prepare": "husky"
   },
@@ -40,6 +41,7 @@
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.4.0",
     "@eslint/js": "^9.37.0",
     "@playwright/test": "^1.56.0",
     "@react-router/dev": "^7.9.2",
