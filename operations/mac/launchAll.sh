@@ -1,4 +1,7 @@
-#!/bin/sh 
+#!/bin/sh
+
+# This is working with VS Code in MacOS environment 
+
 SCRIPT_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 SCRIPT1="$SCRIPT_PATH/launchApp.sh"
