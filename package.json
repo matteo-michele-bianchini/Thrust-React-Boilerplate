@@ -5,18 +5,18 @@
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev --open",
-    "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
     "eslint": "eslint",
     "eslint:fix": "eslint --fix",
-    "pre:commit": "npm-run-all eslint typecheck test:once test:e2e:once",
+    "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
+    "pre:commit": "npm-run-all eslint typecheck test:unit:once test:e2e:once",
+    "prepare": "husky",
     "start": "react-router-serve ./build/server/index.js",
-    "test": "vitest",
-    "test:once": "vitest run",
     "test:e2e": "PWTEST_WATCH=1 playwright test",
     "test:e2e:once": "playwright test --reporter=line",
     "test:e2e:ui": "playwright test --ui --ui-host=0.0.0.0",
-    "typecheck": "react-router typegen && tsc",
-    "prepare": "husky"
+    "test:unit": "vitest",
+    "test:unit:once": "vitest run",
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@radix-ui/react-collapsible": "^1.1.12",
