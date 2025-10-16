@@ -5,6 +5,8 @@
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev --open",
+    "dev:init:mac": "bash ./operations/mac/launchAll.sh",
+    "dev:init:mac+vscode": "npm run dev:init:mac -- --vscode",
     "eslint": "eslint",
     "eslint:fix": "eslint --fix",
     "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
