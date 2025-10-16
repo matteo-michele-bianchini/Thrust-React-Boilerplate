@@ -5,8 +5,8 @@
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev --open",
-    "dev:init:mac": "bash ./operations/mac/launchAll.sh",
-    "dev:init:mac+vscode": "npm run dev:init:mac -- --vscode",
+    "dev:init": "concurrently 'npm run dev' 'npm run test:unit' 'npm run test:e2e'",
+    "dev:init:macOS": "bash ./operations/macOS/launchAll.sh",
     "eslint": "eslint",
     "eslint:fix": "eslint --fix",
     "git:commit:and:push:all": "func() { git add . && git commit -m \"$1\" && git push; }; func",
@@ -16,7 +16,7 @@
     "test:e2e": "PWTEST_WATCH=1 playwright test",
     "test:e2e:once": "playwright test --reporter=line",
     "test:e2e:ui": "playwright test --ui --ui-host=0.0.0.0",
-    "test:unit": "vitest",
+    "test:unit": "vitest --watch",
     "test:unit:once": "vitest run",
     "typecheck": "react-router typegen && tsc"
   },
@@ -54,6 +54,7 @@
     "@types/node": "^22",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.1",
+    "concurrently": "^9.2.1",
     "eslint": "^9.37.0",
     "eslint-plugin-react-hooks": "^7.0.0",
     "husky": "^9.1.7",
