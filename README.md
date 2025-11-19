@@ -3,6 +3,13 @@ A complete and modern React boilerplate.
 
 Built on top of the official [React Router template](https://github.com/remix-run/react-router-templates/tree/main/default) — extended with a developer friendly, production-ready stack.
 
+## 🎥 Demo
+
+
+
+<video src="https://github.com/user-attachments/assets/7e640938-fd38-4dae-8d04-ed2453b1f9e8" width="600" autoplay loop muted></video>
+
+
 ## Getting Started - added features
 
 ### Installation
