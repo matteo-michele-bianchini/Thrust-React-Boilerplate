@@ -32,7 +32,7 @@ export default function Page() {
               <BreadcrumbList>
                 <BreadcrumbItem>
                   <BreadcrumbPage className="line-clamp-1">
-                    Project Management & Task Tracking
+                    Personal Area
                   </BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
