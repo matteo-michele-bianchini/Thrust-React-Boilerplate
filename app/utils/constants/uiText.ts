@@ -1,5 +1,5 @@
-const projectName: string = 'NewtonThrust'
-const appTitle: string = `${projectName} | Premium Cars'`
+const projectName: string = 'Thrust React Boilerplate'
+const appTitle: string = `${projectName} | Homepage'`
 
 export {
     appTitle,
