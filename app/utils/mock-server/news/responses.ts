@@ -8,7 +8,7 @@ export default {
                     id: '1',
                     title: 'Maserati',
                     text: 'Con la GranTurismo GT2 Stradale, Maserati porta la tradizione nel futuro: il primo modello 100% elettrico che combina eleganza e prestazioni da pista.',
-                    img: 'https://www.media.maserati.com/assets/images/thumbnail/26882-maserati-gt2-stradale-at-tutto-bene-mottarone-2025-22.jpg'
+                    img: 'https://cdn.motor1.com/images/mgl/40KBBZ/s3/maserati-gt2-stradale.webp'
                 },
                 {
                     id: '2',
