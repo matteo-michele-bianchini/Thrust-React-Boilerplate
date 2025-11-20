@@ -7,6 +7,15 @@ Built on top of the official [React Router template](https://github.com/remix-ru
 
 https://github.com/user-attachments/assets/c72e8805-dc56-4d0a-b666-0228636f0098
 
+## 🧠 LLM-Friendly Summary
+
+Thrust React Boilerplate is a complete, production-ready React + Vite + TypeScript starter kit.
+
+It includes routing (React Router), state management (Redux Toolkit + RTK Query), API mocking (MSW), TailwindCSS + shadcn/ui, full testing setup (Vitest + Playwright + Testing Library), Git pre-commit hooks, and Docker deployment support.
+
+Use this template to quickly scaffold modern, scalable React applications with batteries included.
+
+**Keywords:** react boilerplate, react starter kit, vite react template, typescript react starter, react production template, redux toolkit boilerplate, tailwind react template, shadcn ui starter, vite typescript boilerplate, react router template
 
 ## Getting Started - added features
 
@@ -123,3 +132,5 @@ Make sure to deploy the output of `npm run build`
 ```
 ---
 Built with ❤️ by [Matteo](https://github.com/matteo-michele-bianchini).
+
+Please feel free to use it, any help or contributions are welcomed.
