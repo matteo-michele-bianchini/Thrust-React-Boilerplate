@@ -17,7 +17,37 @@ Use this template to quickly scaffold modern, scalable React applications with b
 
 **Keywords:** react boilerplate, react starter kit, vite react template, typescript react starter, react production template, redux toolkit boilerplate, tailwind react template, shadcn ui starter, vite typescript boilerplate, react router template
 
-## Getting Started - added features
+# ⭐ Why Use Thrust?
+
+Use this boilerplate if you need:  
+- A modern Vite + React + TypeScript setup  
+- Routing, data loading, and mutations ready out of the box  
+- A realistic API layer using RTK Query + MSW  
+- A complete testing environment (unit + e2e)  
+- A UI system (TailwindCSS + shadcn/ui) ready to go  
+- A scalable architecture for real-world apps  
+- Fast onboarding for teams
+
+# ⚠️ When Thrust Is Not Ideal
+
+Not recommended if:  
+- You need a fullstack framework → choose Next.js, Remix, or Astro  
+- You prefer a minimal/no-features starter → use Vite’s default template  
+- You’re not using TypeScript  
+
+### 🚀 Features
+
+|  |  |  |
+|:----:|:------|:-------------|
+| ⚡ | **[Vite](https://vitejs.dev/)** + **[TypeScript](https://www.typescriptlang.org/)** | Lightning-fast dev server with HMR and type safety |
+| 🧭 | **[React Router](https://reactrouter.com/)** | Modern routing with data APIs, loaders, and mutations |
+| 🌐 | **[Redux Toolkit](https://redux-toolkit.js.org/)** | Scalable global state with persistence |
+| 🧠 | **[RTK Query](https://redux-toolkit.js.org/rtk-query/overview)** + **[MSW](https://mswjs.io/)** | Data fetching with mock server |
+| 🎨 |**[Tailwind CSS](https://tailwindcss.com/)** + **[shadcn/ui](https://ui.shadcn.com/)** | Utility-first styling and accessible UI components.<br>Dark mode ready |
+| ✅ | **[Vitest](https://vitest.dev/)** + **[Testing Library](https://testing-library.com/)**  + **[Playwright](https://playwright.dev/)**| Unit and end-to-end testing |
+| { }  | **[ESLint](https://eslint.org/)** | Code analysis and auto-formatting |
+
+## Getting Started
 
 ### Installation
 
@@ -63,17 +93,6 @@ To avoid pre commit checks:
 ```bash
 git commit -n -m "This commit is not tested"
 ```
-### 🚀 Features
-
-|  |  |  |
-|:----:|:------|:-------------|
-| ⚡ | **[Vite](https://vitejs.dev/)** + **[TypeScript](https://www.typescriptlang.org/)** | Lightning-fast dev server with HMR and type safety |
-| 🧭 | **[React Router](https://reactrouter.com/)** | Modern routing with data APIs, loaders, and mutations |
-| 🌐 | **[Redux Toolkit](https://redux-toolkit.js.org/)** | Scalable global state with persistence |
-| 🧠 | **[RTK Query](https://redux-toolkit.js.org/rtk-query/overview)** + **[MSW](https://mswjs.io/)** | Data fetching with mock server |
-| 🎨 |**[Tailwind CSS](https://tailwindcss.com/)** + **[shadcn/ui](https://ui.shadcn.com/)** | Utility-first styling and accessible UI components.<br>Dark mode ready |
-| ✅ | **[Vitest](https://vitest.dev/)** + **[Testing Library](https://testing-library.com/)**  + **[Playwright](https://playwright.dev/)**| Unit and end-to-end testing |
-| { }  | **[ESLint](https://eslint.org/)** | Code analysis and auto-formatting |
 
 ## Other commands
 
