@@ -5,9 +5,9 @@ Built on top of the official [React Router template](https://github.com/remix-ru
 
 ## 🎥 Demo
 
-<video src="https://github.com/user-attachments/assets/7e640938-fd38-4dae-8d04-ed2453b1f9e8" width="600" autoplay loop muted></video>
+<video src="https://github.com/user-attachments/assets/caa5eb28-b282-424f-8a5f-89bd08e0f64f" width="600" autoplay loop muted></video>
 
-https://github.com/user-attachments/assets/7e640938-fd38-4dae-8d04-ed2453b1f9e8
+https://github.com/user-attachments/assets/caa5eb28-b282-424f-8a5f-89bd08e0f64f
 
 
 ## Getting Started - added features
