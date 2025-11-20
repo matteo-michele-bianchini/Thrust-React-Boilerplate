@@ -7,7 +7,7 @@ Built on top of the official [React Router template](https://github.com/remix-ru
 
 <video src="https://github.com/user-attachments/assets/caa5eb28-b282-424f-8a5f-89bd08e0f64f" width="600" autoplay loop muted></video>
 
-https://github.com/user-attachments/assets/caa5eb28-b282-424f-8a5f-89bd08e0f64f
+https://github.com/user-attachments/assets/c72e8805-dc56-4d0a-b666-0228636f0098
 
 
 ## Getting Started - added features
